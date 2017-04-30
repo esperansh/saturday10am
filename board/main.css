@@ -1,0 +1,78 @@
+html, body{
+	line-height: 1.5;
+	color: #000;
+	font-family: Verdana, sans-seri;
+}
+
+div.frame{
+	padding: 10px 10px 0px 10px;
+}
+
+.ysy-table {
+	border: 1px solid #ccc;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+    font-size: 16px;
+
+}
+
+.ysy-table th{
+	border: 1px solid #ddd;
+	font-weight: bold;
+	padding: 8px;
+	text-align: center;
+}
+.ysy-table td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: center;
+}
+
+.ysy-table tr {
+    border-bottom: 1px solid #ddd
+}
+
+.ysy-table tbody tr:nth-child(even) {
+    background-color: #f1f1f1
+}
+
+.ysy-table tr:nth-child(odd) {
+    background-color: #fff
+}
+
+.ysy-table tr:nth-child(even) {
+    background-color: #f1f1f1
+}
+
+.ysy-btn {
+	border: none;
+	display: inline-block;
+	outline: 0;
+	padding: 8px 16px;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none;
+	color: inherit;
+	background-color: inherit;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap
+}
+
+.ysy-btn, .ysy-btn:link, .ysy-btn:visited{
+	color: #fff;
+	background-color: #4CAF50;
+}
+
+p.title{
+	font-size: 20px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+p.copyright{
+	text-align :center;
+	font-size: 12px;
+}
+
